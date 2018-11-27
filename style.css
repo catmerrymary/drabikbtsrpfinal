@@ -5,7 +5,6 @@
     margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    /*background-color: blue;*/
     grid-gap: 15px 20px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
     background: #fefcea; /* Old browsers */
@@ -20,81 +19,24 @@ section, main, footer {
     width: 100%;
     margin-bottom: 7px;
 }
-.cont {
-    display: flex;
-}
-.logs {
-    flex: 1;
-}
-#nati {
-    display: flex;
 
-}
-#navi {
-    /*grid-template: 80px / 120px 1fr;
-    grid-gap: 20px;*/
-    display: flex;
-    max-width: 1200px;
-    /*flex-basis: 68%;*/
-    flex-basis: 200px;
-    /*flex-basis: 120px;*/
-    /*justify-content: space-around;*/
-    background-color: #000000;
-    color: #fff;
-    align-items: center;
-    font-size: 1.5rem;
-}
-/*#navi img {
-    width: 250px;
-    height: 100px;
-
-}*/
 ul {
-    display: flex;
+
     width: 100%;
-    grid-template: 50px /  250px repeat( 5, 1fr);
-    grid-template: 50px / repeat(6, 1fr);
-    justify-content: flex-start;
+
     align-items: center;
     list-style-type: none;
-    /*align-content: center;*/
-    /*flex-wrap: nowrap;*/
+
 }
 
-#navi li {
-    text-align:center;
-    padding: 15px;
-    text-align: center;
-    /*justify-content:center;*/
-    color: #fff;
-    flex: 1;
-}
-#navi a {
-    color: #fff;
-}
-#home {
-   /* align-self: flex-start;*/
-    margin-left:0;
-    padding-left: 0;
-}
-/*nav:nth-of-type(2) {
-    height:30px;
-    align-self: center;
-    background-color: yellow;
-}*/
-/*img {
-    height:20em;
-}*/
+
 header {
-    display: grid;
-    /*grid-template-columns: 500px 1fr;*/
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 15px;
-    /*background-color: purple;*/
+
+    background-color: purple;
 }
 header> div> img {
     height: 250px;
-    /*object-fit: contain;*/
+
 }
 hr {
 
@@ -103,17 +45,7 @@ hr {
     width: 80%;
 
 }
-#logo {
-    /*height: 100px;*/
-   width: 200px;
-}
-#thing1 {
-  width: 30%;
-}
-#thing2 {
-  width: 70%;
-    text-align: center;
-}
+
 header h2 {
     /*float: left;*/
     vertical-align: center;
@@ -146,21 +78,7 @@ footer {
     line-height: 1em;
 }
 /*------------------contact-styles---------------*/
-.form {
-    display: grid;
-    grid-template-columns: 45% 1fr;
-}
 
-#rev {
-  /*background-color: pink;*/
-}
-#frm {
-   /*background-color: #3ffcff;
-    text-align:center;*/
-}
-#email_form {
-    text-align: left;
-}
 label {
     color: navy;
     float: left;
@@ -187,25 +105,13 @@ input:focus {
     max-width: 400px;
 }
 /*----------------resources-styles-----------*/
-.rescontainer {
-    display: grid;
-    /*grid-template-columns: 50% 50%;*/
-}
+
+
 section {
     display: grid;
     grid-template-columns: 40% 60%;
 }
-#res {
-    /*background-color: chartreuse;*/
 
-}
-#jres {
-    text-decoration: none;
-    list-style-type: circle;
-    font-size: 1.5em;
-    line-height: 1.75em;
-
-}
 li {
     text-decoration: none;
 }
@@ -213,63 +119,6 @@ a {
     text-decoration: none;
 }
 
-#res2 {
-    /*background-color: navajowhite;*/
-}
+
 /*----------------------attorneys_styles------*/
 
- #attrnys {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
- }
- #ed {
-    /*background-color: bisque;*/
-     text-align: left;
-     padding: 1em;
- }
- #other {
-     /*background-color: coral;*/
-     text-align: center;
- }
- #attrnys img {
-     width: 500px;
-     height: 600px;
- }
-@media all and (max-width: 780px) {
-    .cont {
-        flex-wrap: wrap;
-    }
-.cont > li {
-    flex-basis: 50%;
-}
-
-}
-
-@media all and (max-width: 400px) {
-    /*.navi > li {
-        flex-basis: 100%;
-    }*/
-    /*.search {
-        order: 1;
-    }*/
-    .cont > li {
-        flex-basis: 100%;
-    }
-
-   header { grid-template-columns: 1fr;
-   }
-   main {
-       display: grid;
-       grid-template: auto / 1fr;
-       /*flex-shrink: 50%;*/
-   }
-   div.news {
-       width: 100%;
-       order: 2;
-   }
-   div.cent {
-       width: 100%;
-       /*width: 100%;*/
-       order: 1;
-   }
-}
